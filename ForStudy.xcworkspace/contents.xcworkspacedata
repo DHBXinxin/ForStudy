@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HowMainWork/HowMainWork.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AllocInit/AllocInit.xcodeproj">
    </FileRef>
 </Workspace>
