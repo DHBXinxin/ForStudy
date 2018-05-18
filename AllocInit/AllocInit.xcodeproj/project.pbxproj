@@ -28,6 +28,7 @@
 		AB8ADC8920AD8D5700C46845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8ADC8A20AD8D5700C46845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8ADC9120AD8D9000C46845 /* isa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isa.png; sourceTree = "<group>"; };
+		AB8ADCB820AE637100C46845 /* AllocInit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllocInit.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				AB8ADC8420AD8D5700C46845 /* Assets.xcassets */,
 				AB8ADC8620AD8D5700C46845 /* LaunchScreen.storyboard */,
 				AB8ADC8920AD8D5700C46845 /* Info.plist */,
+				AB8ADCB820AE637100C46845 /* AllocInit.pch */,
 				AB8ADC8A20AD8D5700C46845 /* main.m */,
 			);
 			path = AllocInit;
@@ -288,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = AllocInit/AllocInit.pch;
 				INFOPLIST_FILE = AllocInit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = AllocInit/AllocInit.pch;
 				INFOPLIST_FILE = AllocInit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
