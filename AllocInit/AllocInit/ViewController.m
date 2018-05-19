@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSString *string = [[NSString alloc]init];
+    string = [NSString new];
     //alloc的作用
     //    将该新对象的引用计数 (Retain Count) 设置成 1。
     //    将该新对象的 isa 成员变量指向它的类对象。
