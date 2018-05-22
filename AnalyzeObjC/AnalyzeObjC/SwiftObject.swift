@@ -9,7 +9,7 @@
 import Foundation
 public class ClassA: NSObject{
     public func classLog() {
-        print("classlog")
+        print("swift log")
     }
 }
 

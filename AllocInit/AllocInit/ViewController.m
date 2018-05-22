@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+//http://blog.devtang.com/2013/01/13/two-stage-creation-on-cocoa/
+//https://draveness.me/isa
 @interface ViewController ()
 
 @end

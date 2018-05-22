@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+//http://blog.sunnyxx.com/2014/08/30/objc-pre-main/
 @interface ViewController ()
 
 @end
