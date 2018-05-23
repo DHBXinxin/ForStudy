@@ -9,5 +9,14 @@
 #import <Foundation/Foundation.h>
 //category
 @interface NSObject (Common)
+{
+    //不可以定义成员变量（实例变量）
+//    NSString *_string;
+//    int age;
+}
+//可以定义属性和方法|但是不能正常的实现set、get方法
+@property (copy, nonatomic) NSString *name;
+
+- (void)objLog;
 
 @end
