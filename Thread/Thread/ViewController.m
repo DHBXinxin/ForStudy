@@ -48,7 +48,7 @@
 //    [self group];
     
 //    [self semaphore];
-    [self source];
+    [self source2];
 }
 - (void)showAnotherImage:(UIImage *)image {
     dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC);
@@ -143,33 +143,48 @@
 }
 - (void)source {
 #if DEBUG
-    // 2
+    
     dispatch_queue_t queue = dispatch_get_main_queue();
-    
-    // 3
     static dispatch_source_t source = nil;
-    
-    // 4
     __typeof(self) __weak weakSelf = self;
-    
-    // 5
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        // 6
-        source = dispatch_source_create(DISPATCH_SOURCE_TYPE_SIGNAL, SIGSTOP, 0, queue);
-        
-        // 7
+
+        source = dispatch_source_create(DISPATCH_SOURCE_TYPE_SIGNAL, SIGSTOP, 0, queue);//监听代表挂起指令的SIGSTOP信号
         if (source)
         {
-            // 8
             dispatch_source_set_event_handler(source, ^{
-                // 9
+                // 添加或者隐藏断点的时候就log这一行
                 NSLog(@"Hi, I am: %@", weakSelf);
             });
-            dispatch_resume(source); // 10
+            dispatch_resume(source);
         }
     });
 #endif
+}
+
+- (void)source2 {
+    dispatch_source_t source = dispatch_source_create(DISPATCH_SOURCE_TYPE_DATA_ADD, 0, 0, dispatch_get_global_queue(0, 0));
+    
+    dispatch_source_set_event_handler(source, ^{
+        
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            unsigned long i = dispatch_source_get_data(source);//有了这一句才走这个方法
+            NSLog(@"%li",i);
+            //更新UI
+            self.imageView.image = self.image;
+        });
+    });
+    
+    dispatch_resume(source);//创建后处于suspend状态，
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        
+        //网络请求
+        sleep(10);
+        dispatch_source_merge_data(source, 1); //通知队列
+    });
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
