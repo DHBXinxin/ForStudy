@@ -36,6 +36,9 @@ void setup_fd_relay(int netfd /* bidirectional */,
                     int infd /* local input */,
                     int outfd /* local output */,
                     void (^finalizer_block)(void));
+void doreadwrite(int fd1, int fd2, char *buffer, size_t len);
+
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
