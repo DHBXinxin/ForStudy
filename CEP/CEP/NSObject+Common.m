@@ -19,4 +19,5 @@
     NSLog(@"objLog");
 }
 @end
+//cd到本目录
 //clang -rewrite-objc NSObject+Common.m生成cpp文件对于学习runtime有帮助
