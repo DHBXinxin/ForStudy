@@ -33,53 +33,6 @@
             endingLineNumber = "171"
             landmarkName = "-source2"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__25-[ViewController source2]_block_invoke"
-                  moduleName = "Thread"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dhsd/Desktop/ForStudy/Thread/Thread/ViewController.m"
-                  timestampString = "551664567.610893"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__25-[ViewController source2]_block_invoke_2"
-                  moduleName = "Thread"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dhsd/Desktop/ForStudy/Thread/Thread/ViewController.m"
-                  timestampString = "551664567.613833"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.123"
-                  moduleName = "Thread"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dhsd/Desktop/ForStudy/Thread/Thread/ViewController.m"
-                  timestampString = "551664567.620533"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ForRuntime/ForRuntime.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Dispatch/Dispatch.xcodeproj">
    </FileRef>
    <FileRef
