@@ -34,7 +34,9 @@
 //    非逻辑性的初使化功能，设置所有成员变量为零。
     //new只是alloc+init
 }
-
+//当给对象发送消息、消息会查看对象的类的方法列表
+//当给类发送消息、消息会查看类的元类的方法列表
+//这两句话可以明白的看出元类是个什么东西
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

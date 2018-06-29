@@ -7,5 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+@interface A : NSObject
+@property (nonatomic, assign) NSInteger a;
+- (void)b;
++ (void)c;
+@end
+@implementation A
+- (void)b {
+    NSLog(@"b");
+}
++ (void)c {
+    NSLog(@"c");
+}
+@end
 
+int main(int argc, char * argv[]) {
+    A *aObject = [[A alloc] init];
+    // 实例方法调用
+    [aObject b];
+    // 类方法调用
+    [A c];
+}
 
