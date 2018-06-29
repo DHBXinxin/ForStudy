@@ -34,3 +34,4 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+//使用图片中的方法来查看汇编源码

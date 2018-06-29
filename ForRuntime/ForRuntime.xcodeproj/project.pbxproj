@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AE8413220E48CB300807BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413120E48CB300807BB6 /* main.m */; };
 		2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413920E48CFD00807BB6 /* MyTestObject.m */; };
 		2AE8413C20E4BB1C00807BB6 /* otherMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413B20E4BB1C00807BB6 /* otherMain.m */; };
+		2AE8414520E5B3CE00807BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413120E48CB300807BB6 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,10 @@
 		2AE8413820E48CFD00807BB6 /* MyTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestObject.h; sourceTree = "<group>"; };
 		2AE8413920E48CFD00807BB6 /* MyTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestObject.m; sourceTree = "<group>"; };
 		2AE8413B20E4BB1C00807BB6 /* otherMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = otherMain.m; sourceTree = "<group>"; };
+		2AE8413D20E4BC4100807BB6 /* C++Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++Main.cpp"; sourceTree = "<group>"; };
+		2AE8414120E4BFB100807BB6 /* OCMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMain.m; sourceTree = "<group>"; };
+		2AE8414320E5AFF400807BB6 /* OCMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OCMain.cpp; sourceTree = "<group>"; };
+		2AE8414620E5B64700807BB6 /* huibian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huibian.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				2AE8413120E48CB300807BB6 /* main.m */,
+				2AE8414620E5B64700807BB6 /* huibian.png */,
 				2AE8413B20E4BB1C00807BB6 /* otherMain.m */,
+				2AE8414120E4BFB100807BB6 /* OCMain.m */,
+				2AE8414320E5AFF400807BB6 /* OCMain.cpp */,
+				2AE8413D20E4BC4100807BB6 /* C++Main.cpp */,
 				2AE8413820E48CFD00807BB6 /* MyTestObject.h */,
 				2AE8413920E48CFD00807BB6 /* MyTestObject.m */,
 			);
@@ -127,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */,
+				2AE8414520E5B3CE00807BB6 /* main.m in Sources */,
 				2AE8413C20E4BB1C00807BB6 /* otherMain.m in Sources */,
-				2AE8413220E48CB300807BB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
