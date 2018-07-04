@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MyTestObject.h"
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -34,4 +35,5 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
-//使用图片中的方法来查看汇编源码
+//使用图片huibian中的方法来查看汇编源码
+//图片消息展示了msg的工作流程

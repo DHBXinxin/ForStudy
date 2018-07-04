@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0986A520EC5E2B0083CD95 /* AnotherMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8415D20E61A0200807BB6 /* AnotherMain.m */; };
 		2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413920E48CFD00807BB6 /* MyTestObject.m */; };
-		2AE8414820E5B75D00807BB6 /* otherMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413B20E4BB1C00807BB6 /* otherMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A09869C20EA17D40083CD95 /* msgMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msgMain.m; sourceTree = "<group>"; };
+		2A0986A420EB27880083CD95 /* xiaoxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaoxi.jpg; sourceTree = "<group>"; };
 		2AE8412E20E48CB300807BB6 /* ForRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE8413120E48CB300807BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE8413820E48CFD00807BB6 /* MyTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestObject.h; sourceTree = "<group>"; };
@@ -33,6 +35,7 @@
 		2AE8414120E4BFB100807BB6 /* OCMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMain.m; sourceTree = "<group>"; };
 		2AE8414320E5AFF400807BB6 /* OCMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OCMain.cpp; sourceTree = "<group>"; };
 		2AE8414620E5B64700807BB6 /* huibian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huibian.png; sourceTree = "<group>"; };
+		2AE8415D20E61A0200807BB6 /* AnotherMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				2AE8413120E48CB300807BB6 /* main.m */,
+				2A0986A420EB27880083CD95 /* xiaoxi.jpg */,
 				2AE8414620E5B64700807BB6 /* huibian.png */,
 				2AE8413B20E4BB1C00807BB6 /* otherMain.m */,
+				2AE8415D20E61A0200807BB6 /* AnotherMain.m */,
+				2A09869C20EA17D40083CD95 /* msgMain.m */,
 				2AE8414120E4BFB100807BB6 /* OCMain.m */,
 				2AE8414320E5AFF400807BB6 /* OCMain.cpp */,
 				2AE8413D20E4BC4100807BB6 /* C++Main.cpp */,
@@ -133,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0986A520EC5E2B0083CD95 /* AnotherMain.m in Sources */,
 				2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */,
-				2AE8414820E5B75D00807BB6 /* otherMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
