@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A0986A520EC5E2B0083CD95 /* AnotherMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8415D20E61A0200807BB6 /* AnotherMain.m */; };
+		2A2A872220EDFD9900B2A96E /* objcMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A872120EDFD9900B2A96E /* objcMain.m */; };
+		2A2A872720EE09EF00B2A96E /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A872620EE09EF00B2A96E /* NSObject+Test.m */; };
 		2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413920E48CFD00807BB6 /* MyTestObject.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,13 @@
 /* Begin PBXFileReference section */
 		2A09869C20EA17D40083CD95 /* msgMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msgMain.m; sourceTree = "<group>"; };
 		2A0986A420EB27880083CD95 /* xiaoxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaoxi.jpg; sourceTree = "<group>"; };
+		2A0986A620ECA3EF0083CD95 /* classMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classMain.m; sourceTree = "<group>"; };
+		2A2A871F20EDB8DA00B2A96E /* objc-method-after-realize-class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "objc-method-after-realize-class.png"; sourceTree = "<group>"; };
+		2A2A872020EDEEFE00B2A96E /* objc4-723.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "objc4-723.zip"; sourceTree = "<group>"; };
+		2A2A872120EDFD9900B2A96E /* objcMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcMain.m; sourceTree = "<group>"; };
+		2A2A872320EE065B00B2A96E /* testMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMain.m; sourceTree = "<group>"; };
+		2A2A872520EE09EF00B2A96E /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		2A2A872620EE09EF00B2A96E /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		2AE8412E20E48CB300807BB6 /* ForRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE8413120E48CB300807BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE8413820E48CFD00807BB6 /* MyTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestObject.h; sourceTree = "<group>"; };
@@ -74,6 +82,13 @@
 				2AE8413B20E4BB1C00807BB6 /* otherMain.m */,
 				2AE8415D20E61A0200807BB6 /* AnotherMain.m */,
 				2A09869C20EA17D40083CD95 /* msgMain.m */,
+				2A0986A620ECA3EF0083CD95 /* classMain.m */,
+				2A2A872120EDFD9900B2A96E /* objcMain.m */,
+				2A2A872520EE09EF00B2A96E /* NSObject+Test.h */,
+				2A2A872620EE09EF00B2A96E /* NSObject+Test.m */,
+				2A2A872320EE065B00B2A96E /* testMain.m */,
+				2A2A872020EDEEFE00B2A96E /* objc4-723.zip */,
+				2A2A871F20EDB8DA00B2A96E /* objc-method-after-realize-class.png */,
 				2AE8414120E4BFB100807BB6 /* OCMain.m */,
 				2AE8414320E5AFF400807BB6 /* OCMain.cpp */,
 				2AE8413D20E4BC4100807BB6 /* C++Main.cpp */,
@@ -139,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A0986A520EC5E2B0083CD95 /* AnotherMain.m in Sources */,
+				2A2A872220EDFD9900B2A96E /* objcMain.m in Sources */,
+				2A2A872720EE09EF00B2A96E /* NSObject+Test.m in Sources */,
 				2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +275,7 @@
 		2AE8413620E48CB300807BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,6 +285,7 @@
 		2AE8413720E48CB300807BB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
