@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MyTestObject.h"
-
+//https://www.jianshu.com/p/560d27e6cc81
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
