@@ -12,6 +12,8 @@
 		2A2A875C20EE181800B2A96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A875B20EE181800B2A96E /* Assets.xcassets */; };
 		2A2A875F20EE181800B2A96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A875D20EE181800B2A96E /* LaunchScreen.storyboard */; };
 		2A2A876220EE181800B2A96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A876120EE181800B2A96E /* main.m */; };
+		2A82181D20F4970C008390ED /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A82181C20F4970C008390ED /* NSObject+AssociatedObject.m */; };
+		2A9CF8BE20F5D9700036E914 /* ViewController+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CF8BD20F5D9700036E914 /* ViewController+AssociatedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,11 @@
 		2A2A875E20EE181800B2A96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2A876020EE181800B2A96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A2A876120EE181800B2A96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A82181B20F4970C008390ED /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		2A82181C20F4970C008390ED /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		2A82182020F4A55B008390ED /* NSObject+AssociatedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "NSObject+AssociatedObject.cpp"; sourceTree = "<group>"; };
+		2A9CF8BC20F5D9700036E914 /* ViewController+AssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+AssociatedObject.h"; sourceTree = "<group>"; };
+		2A9CF8BD20F5D9700036E914 /* ViewController+AssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+AssociatedObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,11 @@
 				2A2A875320EE181700B2A96E /* AppDelegate.m */,
 				2A2A875520EE181700B2A96E /* ViewController.h */,
 				2A2A875620EE181700B2A96E /* ViewController.m */,
+				2A9CF8BC20F5D9700036E914 /* ViewController+AssociatedObject.h */,
+				2A9CF8BD20F5D9700036E914 /* ViewController+AssociatedObject.m */,
+				2A82181B20F4970C008390ED /* NSObject+AssociatedObject.h */,
+				2A82181C20F4970C008390ED /* NSObject+AssociatedObject.m */,
+				2A82182020F4A55B008390ED /* NSObject+AssociatedObject.cpp */,
 				2A2A875B20EE181800B2A96E /* Assets.xcassets */,
 				2A2A875D20EE181800B2A96E /* LaunchScreen.storyboard */,
 				2A2A876020EE181800B2A96E /* Info.plist */,
@@ -137,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A82181D20F4970C008390ED /* NSObject+AssociatedObject.m in Sources */,
 				2A2A875720EE181700B2A96E /* ViewController.m in Sources */,
+				2A9CF8BE20F5D9700036E914 /* ViewController+AssociatedObject.m in Sources */,
 				2A2A876220EE181800B2A96E /* main.m in Sources */,
 				2A2A875420EE181700B2A96E /* AppDelegate.m in Sources */,
 			);

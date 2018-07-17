@@ -11,6 +11,7 @@
 //runtime数据结构
 //runtime中的相关代码
 //而图objc-method-after-realize-class中的结构可以在objc4-723中看到、在objc-runtime-new.h、可解下面的包看
+//可以得到runtime与objc-runtime.h是不同的、runtime表示iOS、Mac等开发的root、runtime、而objc-runtime表示OC的runtime他们所表示是objc_class是两个不同的概念
 
 //objc_class
 /*

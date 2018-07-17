@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A82181E20F4A3B1008390ED /* NSObject+Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "NSObject+Common.cpp"; sourceTree = "<group>"; };
 		AB43C4E920B3B6E0003DACEF /* CEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB43C4EC20B3B6E0003DACEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB43C4ED20B3B6E0003DACEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				AB43C4F020B3B6E0003DACEF /* ViewController.m */,
 				AB43C50220B3B774003DACEF /* NSObject+Common.h */,
 				AB43C50320B3B774003DACEF /* NSObject+Common.m */,
+				2A82181E20F4A3B1008390ED /* NSObject+Common.cpp */,
 				AB43C50520B3B7E5003DACEF /* Common.h */,
 				AB43C4F220B3B6E0003DACEF /* Main.storyboard */,
 				AB43C4F520B3B6E7003DACEF /* Assets.xcassets */,
