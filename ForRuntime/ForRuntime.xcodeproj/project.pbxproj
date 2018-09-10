@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A2A872220EDFD9900B2A96E /* objcMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A872120EDFD9900B2A96E /* objcMain.m */; };
 		2A2A872720EE09EF00B2A96E /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A872620EE09EF00B2A96E /* NSObject+Test.m */; };
-		2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8413920E48CFD00807BB6 /* MyTestObject.m */; };
+		2A80D5B3212ABDCF00865282 /* PieceMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A80D5B2212ABDCF00865282 /* PieceMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +33,7 @@
 		2A2A872320EE065B00B2A96E /* testMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMain.m; sourceTree = "<group>"; };
 		2A2A872520EE09EF00B2A96E /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
 		2A2A872620EE09EF00B2A96E /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		2A80D5B2212ABDCF00865282 /* PieceMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieceMain.m; sourceTree = "<group>"; };
 		2AE8412E20E48CB300807BB6 /* ForRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE8413120E48CB300807BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE8413820E48CFD00807BB6 /* MyTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestObject.h; sourceTree = "<group>"; };
@@ -77,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				2AE8413120E48CB300807BB6 /* main.m */,
+				2A80D5B2212ABDCF00865282 /* PieceMain.m */,
 				2A0986A420EB27880083CD95 /* xiaoxi.jpg */,
 				2AE8414620E5B64700807BB6 /* huibian.png */,
 				2AE8413B20E4BB1C00807BB6 /* otherMain.m */,
@@ -154,9 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A2A872220EDFD9900B2A96E /* objcMain.m in Sources */,
+				2A80D5B3212ABDCF00865282 /* PieceMain.m in Sources */,
 				2A2A872720EE09EF00B2A96E /* NSObject+Test.m in Sources */,
-				2AE8413A20E48CFD00807BB6 /* MyTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
