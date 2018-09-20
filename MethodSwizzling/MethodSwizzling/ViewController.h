@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSString *aString;
+    int aNumber;
+    UIButton *aButton;
+}//1～3成员变量、3实例变量
 
+@property (strong, nonatomic) UIButton *aButton;//属性变量
 
 @end
 

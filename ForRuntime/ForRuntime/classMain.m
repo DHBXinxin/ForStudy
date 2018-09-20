@@ -211,10 +211,10 @@ int main(int argc, char * argv[]) {
     class_copyPropertyList([A class], &count);
     NSLog(@"%i", count);
     // 创建objc_property_attribute_t，然后动态添加属性
-    objc_property_attribute_t type = { "T", [[NSString stringWithFormat:@"@\"%@\"",NSStringFromClass([NSString class])] UTF8String] }; //type
+    objc_property_attribute_t type = { "T", [[NSString stringWithFormat:@"@\"%@\"",NSStringFromClass([NSString class])] UTF8String] }; //type类型
     objc_property_attribute_t ownership0 = { "C", "" }; // C = copy
     objc_property_attribute_t ownership = { "N", "" }; //N = nonatomic
-    objc_property_attribute_t backingivar  = { "V", [[NSString stringWithFormat:@"_%@", @"aNewProperty"] UTF8String] };  //variable name
+    objc_property_attribute_t backingivar  = { "V", [[NSString stringWithFormat:@"_%@", @"aNewProperty"] UTF8String] };  //变量名
     objc_property_attribute_t attrs[] = { type, ownership0, ownership, backingivar };
     if(class_addProperty([A class], "aNewProperty", attrs, 4)) {
         // 只会增加属性，不会自动生成set，get方法

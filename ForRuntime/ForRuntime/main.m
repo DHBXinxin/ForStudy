@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "MyTestObject.h"
 //https://www.jianshu.com/p/560d27e6cc81
-
+//返回值表达方法、addMethod方法中用到
+//https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html#//apple_ref/doc/uid/TP40008048-CH100-SW1
+//比如int：（id self， SEL _cmd，NSString * name）这样一个方法的表达式为i@:@
+//class_addMethod(newClass, @selector(testMetaClass), (IMP)TestMetaClass, "v@:"); 第四个参数：一个定义该函数返回值类型和参数类型的字符串 根据返回值和参数动态的确定---可以使用这个方法获取值@encode(void)当不知道某个参数怎么表示的时候
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
