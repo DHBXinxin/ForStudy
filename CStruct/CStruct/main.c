@@ -130,6 +130,12 @@ int main(int argc, const char * argv[]) {
         .book_id = 3333
     };
     
+    Simple2 *ss = {&u1,u3};
+    
+    struct Books bb[] = {Book1, Book2};
+    printBook(bb[1]);
+    struct Books *cc = {&Book2, &Book1};//后面的那个是多余的
+    printBook2(&cc[0]);
     return 0;
 }
 void printBook( struct Books book )

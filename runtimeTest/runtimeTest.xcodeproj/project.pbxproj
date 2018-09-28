@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A26372C21534B1A0088BDC3 /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26372B21534B1A0088BDC3 /* test2.m */; };
 		2A26372F21534B3B0088BDC3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26372E21534B3B0088BDC3 /* People.m */; };
+		2A26376B2159D04A0088BDC3 /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26376A2159D04A0088BDC3 /* People+Associated.m */; };
+		2A2637702159D5C00088BDC3 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26376F2159D5C00088BDC3 /* Teacher.m */; };
+		2A263775215B19CB0088BDC3 /* CTeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A263774215B19CB0088BDC3 /* CTeather.m */; };
+		2A263778215B1F060088BDC3 /* ForInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A263777215B1F060088BDC3 /* ForInvocation.m */; };
+		2A26377E215DC2A70088BDC3 /* CangTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26377D215DC2A70088BDC3 /* CangTeacher.m */; };
+		2A263780215DC4BA0088BDC3 /* Test6.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26377F215DC4BA0088BDC3 /* Test6.m */; };
+		2A263784215DC8F30088BDC3 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A263783215DC8F30088BDC3 /* Bird.m */; };
+		2A263787215DCA140088BDC3 /* DanceCang.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A263786215DCA140088BDC3 /* DanceCang.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +34,24 @@
 		2A26372B21534B1A0088BDC3 /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 		2A26372D21534B3B0088BDC3 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		2A26372E21534B3B0088BDC3 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		2A2637692159D04A0088BDC3 /* People+Associated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People+Associated.h"; sourceTree = "<group>"; };
+		2A26376A2159D04A0088BDC3 /* People+Associated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "People+Associated.m"; sourceTree = "<group>"; };
+		2A26376C2159D3930088BDC3 /* test3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test3.m; sourceTree = "<group>"; };
+		2A26376E2159D5C00088BDC3 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2A26376F2159D5C00088BDC3 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2A2637712159D8F20088BDC3 /* test4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test4.m; sourceTree = "<group>"; };
+		2A263773215B19CB0088BDC3 /* CTeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTeather.h; sourceTree = "<group>"; };
+		2A263774215B19CB0088BDC3 /* CTeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTeather.m; sourceTree = "<group>"; };
+		2A263776215B1F060088BDC3 /* ForInvocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForInvocation.h; sourceTree = "<group>"; };
+		2A263777215B1F060088BDC3 /* ForInvocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForInvocation.m; sourceTree = "<group>"; };
+		2A26377A215DABD20088BDC3 /* test5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test5.m; sourceTree = "<group>"; };
+		2A26377C215DC2A70088BDC3 /* CangTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CangTeacher.h; sourceTree = "<group>"; };
+		2A26377D215DC2A70088BDC3 /* CangTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CangTeacher.m; sourceTree = "<group>"; };
+		2A26377F215DC4BA0088BDC3 /* Test6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test6.m; sourceTree = "<group>"; };
+		2A263782215DC8F30088BDC3 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		2A263783215DC8F30088BDC3 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		2A263785215DCA140088BDC3 /* DanceCang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceCang.h; sourceTree = "<group>"; };
+		2A263786215DCA140088BDC3 /* DanceCang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceCang.m; sourceTree = "<group>"; };
 		2AF777112148F316005E5549 /* runtimeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runtimeTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF777142148F316005E5549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AF7771B2148F34D005E5549 /* test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
@@ -65,8 +90,26 @@
 				2AF777142148F316005E5549 /* main.m */,
 				2AF7771B2148F34D005E5549 /* test1.m */,
 				2A26372B21534B1A0088BDC3 /* test2.m */,
+				2A26376C2159D3930088BDC3 /* test3.m */,
+				2A2637712159D8F20088BDC3 /* test4.m */,
+				2A26377A215DABD20088BDC3 /* test5.m */,
+				2A26377F215DC4BA0088BDC3 /* Test6.m */,
 				2A26372D21534B3B0088BDC3 /* People.h */,
 				2A26372E21534B3B0088BDC3 /* People.m */,
+				2A2637692159D04A0088BDC3 /* People+Associated.h */,
+				2A26376A2159D04A0088BDC3 /* People+Associated.m */,
+				2A26376E2159D5C00088BDC3 /* Teacher.h */,
+				2A26376F2159D5C00088BDC3 /* Teacher.m */,
+				2A263773215B19CB0088BDC3 /* CTeather.h */,
+				2A263774215B19CB0088BDC3 /* CTeather.m */,
+				2A263776215B1F060088BDC3 /* ForInvocation.h */,
+				2A263777215B1F060088BDC3 /* ForInvocation.m */,
+				2A26377C215DC2A70088BDC3 /* CangTeacher.h */,
+				2A26377D215DC2A70088BDC3 /* CangTeacher.m */,
+				2A263785215DCA140088BDC3 /* DanceCang.h */,
+				2A263786215DCA140088BDC3 /* DanceCang.m */,
+				2A263782215DC8F30088BDC3 /* Bird.h */,
+				2A263783215DC8F30088BDC3 /* Bird.m */,
 			);
 			path = runtimeTest;
 			sourceTree = "<group>";
@@ -127,8 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A263780215DC4BA0088BDC3 /* Test6.m in Sources */,
+				2A2637702159D5C00088BDC3 /* Teacher.m in Sources */,
+				2A263784215DC8F30088BDC3 /* Bird.m in Sources */,
+				2A263775215B19CB0088BDC3 /* CTeather.m in Sources */,
+				2A26376B2159D04A0088BDC3 /* People+Associated.m in Sources */,
+				2A26377E215DC2A70088BDC3 /* CangTeacher.m in Sources */,
+				2A263778215B1F060088BDC3 /* ForInvocation.m in Sources */,
 				2A26372F21534B3B0088BDC3 /* People.m in Sources */,
-				2A26372C21534B1A0088BDC3 /* test2.m in Sources */,
+				2A263787215DCA140088BDC3 /* DanceCang.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
