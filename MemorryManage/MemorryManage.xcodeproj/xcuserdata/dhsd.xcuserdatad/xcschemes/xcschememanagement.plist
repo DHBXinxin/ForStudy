@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MethodSwizzling.xcscheme</key>
+		<key>MemorryManage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>16</integer>
 		</dict>
 	</dict>
 </dict>
