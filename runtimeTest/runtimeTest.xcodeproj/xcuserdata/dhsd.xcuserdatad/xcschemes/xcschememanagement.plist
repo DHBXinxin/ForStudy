@@ -7,7 +7,12 @@
 		<key>runtimeTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<key>runtimeTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 </dict>
