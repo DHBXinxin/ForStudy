@@ -2,16 +2,15 @@
 //  main.m
 //  ForRunLoop
 //
-//  Created by DHSD on 2018/11/5.
+//  Created by DHSD on 2018/11/15.
 //  Copyright © 2018 DHSD. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
-    return 0;
 }
