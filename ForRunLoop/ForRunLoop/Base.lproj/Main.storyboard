@@ -18,24 +18,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faK-Gj-jpC">
-                                <rect key="frame" x="166" y="268" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3U7-Pf-I3q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faK-Gj-jpC">
+                                <rect key="frame" x="0.0" y="268" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9dv-la-XRk"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pvq-Gb-TlK" firstAttribute="trailing" secondItem="3U7-Pf-I3q" secondAttribute="trailing" id="3gH-cv-tuf"/>
+                            <constraint firstItem="3U7-Pf-I3q" firstAttribute="leading" secondItem="pvq-Gb-TlK" secondAttribute="leading" id="F1I-2h-KGH"/>
+                            <constraint firstItem="faK-Gj-jpC" firstAttribute="leading" secondItem="pvq-Gb-TlK" secondAttribute="leading" id="Lze-q8-3oF"/>
+                            <constraint firstItem="faK-Gj-jpC" firstAttribute="top" secondItem="pvq-Gb-TlK" secondAttribute="top" constant="248" id="S8i-Jx-rKs"/>
+                            <constraint firstItem="3U7-Pf-I3q" firstAttribute="top" secondItem="Mgk-ZJ-Zn9" secondAttribute="top" id="XB7-T8-rTa"/>
+                            <constraint firstAttribute="bottom" secondItem="3U7-Pf-I3q" secondAttribute="bottom" id="tos-Hw-IAD"/>
+                            <constraint firstItem="pvq-Gb-TlK" firstAttribute="trailing" secondItem="faK-Gj-jpC" secondAttribute="trailing" id="xdn-dO-BXQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pvq-Gb-TlK"/>
                     </view>
                     <connections>
+                        <outlet property="mainTable" destination="3U7-Pf-I3q" id="fsC-Rs-KfV"/>
                         <outlet property="timeLable" destination="faK-Gj-jpC" id="fb4-Td-QWG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzw-JV-sRE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-505" y="564"/>
+            <point key="canvasLocation" x="52" y="721"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

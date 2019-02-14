@@ -10,6 +10,9 @@
 #import "LThread.h"
 #import "CommonObject.h"
 ///简单来说：runloop创建了一个循环--在线程里面表示这个线程一直在运行知道这个循环结束、但是这个循环按设计来说他是一直运行的直到app结束、所以线程在程序运行中是一直存在的不会被dealloc掉
+
+//保证线程长时间存在、不会在不用的时候就dealloc掉
+//测试y第一种场景、保证线程长时间存在
 @interface ViewController ()
 
 @property (weak, nonatomic) LThread *subThread;
