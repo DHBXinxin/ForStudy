@@ -14,14 +14,11 @@
 		2A1A376D219D1765006EE0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A376C219D1765006EE0A0 /* main.m */; };
 		2A1A377B219D64ED006EE0A0 /* LThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A377A219D64ED006EE0A0 /* LThread.m */; };
 		2A1A377E219D66A0006EE0A0 /* CommonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A377D219D66A0006EE0A0 /* CommonObject.m */; };
-		2A1A379F21ACD332006EE0A0 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A379E21ACD332006EE0A0 /* TwoViewController.m */; };
 		2A1A37A321B11A4E006EE0A0 /* timerUpdate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A37A221B11A4E006EE0A0 /* timerUpdate.png */; };
 		2A1A37A721B129ED006EE0A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A37A521B129ED006EE0A0 /* ViewController.m */; };
-		2AD8165E221B8F4E002B1F1D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8165D221B8F4E002B1F1D /* ThirdViewController.m */; };
-		2AD81661221B8FAC002B1F1D /* CatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD81660221B8FAC002B1F1D /* CatchCrash.m */; };
-		2AD81664221BD916002B1F1D /* TestPthread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD81663221BD916002B1F1D /* TestPthread.m */; };
-		2AD8166A221CE0D4002B1F1D /* CrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD81666221CE0D4002B1F1D /* CrashHandler.m */; };
-		2ADAEBCC21F81680002BF77C /* DWURunLoopWorkDistribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAEBC821F8167E002BF77C /* DWURunLoopWorkDistribution.m */; };
+		2A5C700222A1021E0011578C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8165D221B8F4E002B1F1D /* ThirdViewController.m */; };
+		2A5C700322A102280011578C /* TestPthread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD81663221BD916002B1F1D /* TestPthread.m */; };
+		2A5C700422A1022B0011578C /* CatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD81660221B8FAC002B1F1D /* CatchCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -264,14 +261,11 @@
 			files = (
 				2A1A37A721B129ED006EE0A0 /* ViewController.m in Sources */,
 				2A1A377B219D64ED006EE0A0 /* LThread.m in Sources */,
-				2AD81664221BD916002B1F1D /* TestPthread.m in Sources */,
-				2AD8166A221CE0D4002B1F1D /* CrashHandler.m in Sources */,
-				2AD81661221B8FAC002B1F1D /* CatchCrash.m in Sources */,
+				2A5C700222A1021E0011578C /* ThirdViewController.m in Sources */,
 				2A1A377E219D66A0006EE0A0 /* CommonObject.m in Sources */,
-				2A1A379F21ACD332006EE0A0 /* TwoViewController.m in Sources */,
-				2AD8165E221B8F4E002B1F1D /* ThirdViewController.m in Sources */,
+				2A5C700422A1022B0011578C /* CatchCrash.m in Sources */,
 				2A1A376D219D1765006EE0A0 /* main.m in Sources */,
-				2ADAEBCC21F81680002BF77C /* DWURunLoopWorkDistribution.m in Sources */,
+				2A5C700322A102280011578C /* TestPthread.m in Sources */,
 				2A1A375F219D1764006EE0A0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

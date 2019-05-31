@@ -9,7 +9,7 @@
 #import "ThirdViewController.h"
 #import "CatchCrash.h"
 #import <pthread/pthread.h>
-
+//不知道以前怎么样、现在的话、有一样的c方法会报错、不能运行
 @interface ThirdViewController ()
 
 @end
