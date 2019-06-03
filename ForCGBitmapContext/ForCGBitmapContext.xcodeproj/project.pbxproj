@@ -16,6 +16,7 @@
 		2A5C700722A103C70011578C /* VCOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C700622A103C70011578C /* VCOneView.m */; };
 		2A5C700A22A103D80011578C /* VCTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C700922A103D80011578C /* VCTwoView.m */; };
 		2A5C700C22A105A10011578C /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C700B22A105A10011578C /* cat.jpeg */; };
+		2A5C700F22A4B1E70011578C /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C700E22A4B1E70011578C /* ColorPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		2A5C700822A103D80011578C /* VCTwoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCTwoView.h; sourceTree = "<group>"; };
 		2A5C700922A103D80011578C /* VCTwoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTwoView.m; sourceTree = "<group>"; };
 		2A5C700B22A105A10011578C /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		2A5C700D22A4B1E70011578C /* ColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPicker.h; sourceTree = "<group>"; };
+		2A5C700E22A4B1E70011578C /* ColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				2A5C700B22A105A10011578C /* cat.jpeg */,
 				2A5C700522A103C70011578C /* VCOneView.h */,
 				2A5C700622A103C70011578C /* VCOneView.m */,
+				2A5C700D22A4B1E70011578C /* ColorPicker.h */,
+				2A5C700E22A4B1E70011578C /* ColorPicker.m */,
 				2A5C700822A103D80011578C /* VCTwoView.h */,
 				2A5C700922A103D80011578C /* VCTwoView.m */,
 				2A5C6FF222A0DA230011578C /* Main.storyboard */,
@@ -160,6 +165,7 @@
 				2A5C700A22A103D80011578C /* VCTwoView.m in Sources */,
 				2A5C6FFC22A0DA250011578C /* main.m in Sources */,
 				2A5C6FEE22A0DA230011578C /* AppDelegate.m in Sources */,
+				2A5C700F22A4B1E70011578C /* ColorPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

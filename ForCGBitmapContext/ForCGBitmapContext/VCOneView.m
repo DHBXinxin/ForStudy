@@ -37,6 +37,20 @@
     
     self.view.backgroundColor = [UIColor blueColor];
     
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSLog(@"%@",path);
+    
+    CGPoint point = CGPointMake(0, 0);
+    geometry
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self.view];
+    NSLog(@"%@",point);
+}
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
 }
 
 
