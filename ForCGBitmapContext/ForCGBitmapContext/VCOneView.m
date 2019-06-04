@@ -26,30 +26,63 @@
     if (_resultView) {
         return _resultView;
     }
-    _resultView = [[UIButton alloc]initWithFrame:CGRectMake(0, HEIGHT-50, WIDTH, HEIGHT - 114)];
-    
+    _resultView = [[UIButton alloc]initWithFrame:CGRectMake(0, HEIGHT-50, WIDTH, 50)];
+    _resultView.backgroundColor = [UIColor whiteColor];
+    [_resultView setTitle:@"当前颜色" forState:UIControlStateNormal];
+    [_resultView setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [_resultView setTitleEdgeInsets:UIEdgeInsetsMake(20, 0, 0, 0)];
+    _resultView.layer.bounds = _resultView.bounds;
+    _resultView.layer.borderWidth = 3;
+    _resultView.layer.borderColor = [UIColor cyanColor].CGColor;
+    _resultView.titleLabel.font = [UIFont systemFontOfSize:15];
     return _resultView;
 }
-    
+
+- (UIImageView *)imgView {
+    if (_imgView) {
+        return _imgView;
+    }
+    UIImage *image = [UIImage imageNamed:@"cat.jpeg"];
+    _imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 164, WIDTH, HEIGHT - 214 )];
+    _imgView.image = image;
+    [_imgView addSubview:self.pointView];
+    return _imgView;
+}
+- (UIView *)pointView {
+    if (_pointView) {
+        return _pointView;
+    }
+    CAShapeLayer *shape = [[CAShapeLayer alloc]init];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, 20, 20) cornerRadius:10];
+    shape.path = path.CGPath;
+    shape.fillColor = [UIColor clearColor].CGColor;
+    shape.strokeColor = [UIColor blueColor].CGColor;
+    _pointView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
+    [_pointView.layer addSublayer:shape];
+//    _pointView.backgroundColor = [UIColor redColor];
+    return _pointView;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor blueColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     NSLog(@"%@",path);
     
     CGPoint point = CGPointMake(0, 0);
-    geometry
+    [self.view addSubview:self.imgView];
+    [self.view addSubview:self.resultView];
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self.view];
-    NSLog(@"%@",point);
+    NSLog(@"%f,%f",point.x, point.y);
 }
-- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)tourchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
 }
 

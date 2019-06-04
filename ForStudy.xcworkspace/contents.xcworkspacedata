@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AdaptIphoneX/AdaptIphoneX.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ForCGBitmapContext/ForCGBitmapContext.xcodeproj">
    </FileRef>
    <FileRef
