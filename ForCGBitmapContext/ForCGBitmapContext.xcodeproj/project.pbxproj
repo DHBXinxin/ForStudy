@@ -38,6 +38,10 @@
 		2A5C700E22A4B1E70011578C /* ColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
 		2A7D771E22A7BC2A00B2D6E6 /* ShapeImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeImageView.h; sourceTree = "<group>"; };
 		2A7D771F22A7BC2A00B2D6E6 /* ShapeImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeImageView.m; sourceTree = "<group>"; };
+		2A7D773522A8EA7100B2D6E6 /* Demo1_ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo1_ColorPicker.swift; sourceTree = "<group>"; };
+		2A7D773622A8EA7100B2D6E6 /* Demo2_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2_ViewController.swift; sourceTree = "<group>"; };
+		2A7D773722A8EA7100B2D6E6 /* Demo2_ShapeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2_ShapeImageView.swift; sourceTree = "<group>"; };
+		2A7D773822A8EA7100B2D6E6 /* Demo1_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo1_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				2A5C700922A103D80011578C /* VCTwoView.m */,
 				2A7D771E22A7BC2A00B2D6E6 /* ShapeImageView.h */,
 				2A7D771F22A7BC2A00B2D6E6 /* ShapeImageView.m */,
+				2A7D773422A8EA7100B2D6E6 /* SwiftDemo */,
 				2A5C6FF222A0DA230011578C /* Main.storyboard */,
 				2A5C6FF522A0DA250011578C /* Assets.xcassets */,
 				2A5C6FF722A0DA250011578C /* LaunchScreen.storyboard */,
@@ -89,6 +94,17 @@
 				2A5C6FFB22A0DA250011578C /* main.m */,
 			);
 			path = ForCGBitmapContext;
+			sourceTree = "<group>";
+		};
+		2A7D773422A8EA7100B2D6E6 /* SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A7D773522A8EA7100B2D6E6 /* Demo1_ColorPicker.swift */,
+				2A7D773622A8EA7100B2D6E6 /* Demo2_ViewController.swift */,
+				2A7D773722A8EA7100B2D6E6 /* Demo2_ShapeImageView.swift */,
+				2A7D773822A8EA7100B2D6E6 /* Demo1_ViewController.swift */,
+			);
+			path = SwiftDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
