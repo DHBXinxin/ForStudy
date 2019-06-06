@@ -7,6 +7,8 @@
 //
 
 #import "VCOneView.h"
+#import "ColorPicker.h"
+
 #define WIDTH self.view.frame.size.width
 #define HEIGHT self.view.frame.size.height
 
@@ -42,9 +44,11 @@
     if (_imgView) {
         return _imgView;
     }
-    UIImage *image = [UIImage imageNamed:@"cat.jpeg"];
-    _imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 164, WIDTH, HEIGHT - 214 )];
+    UIImage *image = [UIImage imageNamed:@"cat"];
+    NSLog(@"%f-----%f",image.size.width, image.size.height);
+    _imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 44 + 44, WIDTH, HEIGHT - 414 )];
     _imgView.image = image;
+    NSLog(@"%f-------%f",_imgView.image.size.width, _imgView.image.size.height);
     [_imgView addSubview:self.pointView];
     return _imgView;
 }
@@ -71,21 +75,30 @@
     NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     NSLog(@"%@",path);
     
-    CGPoint point = CGPointMake(0, 0);
     [self.view addSubview:self.imgView];
     [self.view addSubview:self.resultView];
+    [self changeColor:_pointView.center];
     
 }
-
+- (void)changeColor:(CGPoint)point {
+    CGFloat imgWidth = CGImageGetWidth(self.imgView.image.CGImage);
+    CGFloat imgHeight = CGImageGetHeight(self.imgView.image.CGImage);
+    CGPoint pImage = CGPointMake(point.x * imgWidth / _imgView.bounds.size.width,
+                                 point.y * imgHeight / _imgView.bounds.size.height);
+    self.resultView.backgroundColor = [ColorPicker getColor:pImage withImage:self.imgView.image];
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
-    CGPoint point = [touch locationInView:self.view];
-    NSLog(@"%f,%f",point.x, point.y);
+    CGPoint point = [touch locationInView:self.imgView];
+    _pointView.center = point;
+    [self changeColor:point];
 }
 - (void)tourchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self.imgView];
+    _pointView.center = point;
+    [self changeColor:point];
 }
-
 
 
 @end

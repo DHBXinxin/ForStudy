@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ColorPicker : NSObject
 
++ (UIColor *)getColor:(CGPoint)point withImage:(UIImage *)image;
+
 @end
 
 NS_ASSUME_NONNULL_END
