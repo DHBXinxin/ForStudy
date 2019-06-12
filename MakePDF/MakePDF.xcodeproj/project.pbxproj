@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A4F2A4B22B085820033E14C /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F2A4A22B085820033E14C /* info.png */; };
-		2A7D779322AF97B400B2D6E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D779222AF97B400B2D6E6 /* AppDelegate.m */; };
-		2A7D779622AF97B400B2D6E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D779522AF97B400B2D6E6 /* ViewController.m */; };
-		2A7D779922AF97B400B2D6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D779722AF97B400B2D6E6 /* Main.storyboard */; };
-		2A7D779B22AF97B500B2D6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D779A22AF97B500B2D6E6 /* Assets.xcassets */; };
-		2A7D779E22AF97B500B2D6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D779C22AF97B500B2D6E6 /* LaunchScreen.storyboard */; };
-		2A7D77A122AF97B500B2D6E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D77A022AF97B500B2D6E6 /* main.m */; };
+		2A4F2A5A22B086380033E14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F2A5922B086380033E14C /* AppDelegate.m */; };
+		2A4F2A5D22B086380033E14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F2A5C22B086380033E14C /* ViewController.m */; };
+		2A4F2A6022B086380033E14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F2A5E22B086380033E14C /* Main.storyboard */; };
+		2A4F2A6222B0863B0033E14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F2A6122B0863B0033E14C /* Assets.xcassets */; };
+		2A4F2A6522B0863B0033E14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F2A6322B0863B0033E14C /* LaunchScreen.storyboard */; };
+		2A4F2A6822B0863B0033E14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F2A6722B0863B0033E14C /* main.m */; };
+		2A4F2A7022B086670033E14C /* PDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F2A6F22B086670033E14C /* PDFManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A4F2A4A22B085820033E14C /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		2A7D778E22AF97B400B2D6E6 /* CopyFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A7D779122AF97B400B2D6E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2A7D779222AF97B400B2D6E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A7D779422AF97B400B2D6E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A7D779522AF97B400B2D6E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A7D779822AF97B400B2D6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A7D779A22AF97B500B2D6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A7D779D22AF97B500B2D6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2A7D779F22AF97B500B2D6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A7D77A022AF97B500B2D6E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A4F2A5522B086380033E14C /* MakePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4F2A5822B086380033E14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A4F2A5922B086380033E14C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A4F2A5B22B086380033E14C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A4F2A5C22B086380033E14C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A4F2A5F22B086380033E14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A4F2A6122B0863B0033E14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A4F2A6422B0863B0033E14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A4F2A6622B0863B0033E14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4F2A6722B0863B0033E14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A4F2A6E22B086670033E14C /* PDFManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFManager.h; sourceTree = "<group>"; };
+		2A4F2A6F22B086670033E14C /* PDFManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A7D778B22AF97B400B2D6E6 /* Frameworks */ = {
+		2A4F2A5222B086380033E14C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +42,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A7D778522AF97B400B2D6E6 = {
+		2A4F2A4C22B086380033E14C = {
 			isa = PBXGroup;
 			children = (
-				2A7D779022AF97B400B2D6E6 /* CopyFile */,
-				2A7D778F22AF97B400B2D6E6 /* Products */,
+				2A4F2A5722B086380033E14C /* MakePDF */,
+				2A4F2A5622B086380033E14C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A7D778F22AF97B400B2D6E6 /* Products */ = {
+		2A4F2A5622B086380033E14C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A7D778E22AF97B400B2D6E6 /* CopyFile.app */,
+				2A4F2A5522B086380033E14C /* MakePDF.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A7D779022AF97B400B2D6E6 /* CopyFile */ = {
+		2A4F2A5722B086380033E14C /* MakePDF */ = {
 			isa = PBXGroup;
 			children = (
-				2A7D779122AF97B400B2D6E6 /* AppDelegate.h */,
-				2A7D779222AF97B400B2D6E6 /* AppDelegate.m */,
-				2A4F2A4A22B085820033E14C /* info.png */,
-				2A7D779422AF97B400B2D6E6 /* ViewController.h */,
-				2A7D779522AF97B400B2D6E6 /* ViewController.m */,
-				2A7D779722AF97B400B2D6E6 /* Main.storyboard */,
-				2A7D779A22AF97B500B2D6E6 /* Assets.xcassets */,
-				2A7D779C22AF97B500B2D6E6 /* LaunchScreen.storyboard */,
-				2A7D779F22AF97B500B2D6E6 /* Info.plist */,
-				2A7D77A022AF97B500B2D6E6 /* main.m */,
+				2A4F2A5822B086380033E14C /* AppDelegate.h */,
+				2A4F2A5922B086380033E14C /* AppDelegate.m */,
+				2A4F2A5B22B086380033E14C /* ViewController.h */,
+				2A4F2A5C22B086380033E14C /* ViewController.m */,
+				2A4F2A6E22B086670033E14C /* PDFManager.h */,
+				2A4F2A6F22B086670033E14C /* PDFManager.m */,
+				2A4F2A5E22B086380033E14C /* Main.storyboard */,
+				2A4F2A6122B0863B0033E14C /* Assets.xcassets */,
+				2A4F2A6322B0863B0033E14C /* LaunchScreen.storyboard */,
+				2A4F2A6622B0863B0033E14C /* Info.plist */,
+				2A4F2A6722B0863B0033E14C /* main.m */,
 			);
-			path = CopyFile;
+			path = MakePDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A7D778D22AF97B400B2D6E6 /* CopyFile */ = {
+		2A4F2A5422B086380033E14C /* MakePDF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A7D77A422AF97B500B2D6E6 /* Build configuration list for PBXNativeTarget "CopyFile" */;
+			buildConfigurationList = 2A4F2A6B22B0863B0033E14C /* Build configuration list for PBXNativeTarget "MakePDF" */;
 			buildPhases = (
-				2A7D778A22AF97B400B2D6E6 /* Sources */,
-				2A7D778B22AF97B400B2D6E6 /* Frameworks */,
-				2A7D778C22AF97B400B2D6E6 /* Resources */,
+				2A4F2A5122B086380033E14C /* Sources */,
+				2A4F2A5222B086380033E14C /* Frameworks */,
+				2A4F2A5322B086380033E14C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CopyFile;
-			productName = CopyFile;
-			productReference = 2A7D778E22AF97B400B2D6E6 /* CopyFile.app */;
+			name = MakePDF;
+			productName = MakePDF;
+			productReference = 2A4F2A5522B086380033E14C /* MakePDF.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A7D778622AF97B400B2D6E6 /* Project object */ = {
+		2A4F2A4D22B086380033E14C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = DHSD;
 				TargetAttributes = {
-					2A7D778D22AF97B400B2D6E6 = {
+					2A4F2A5422B086380033E14C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2A7D778922AF97B400B2D6E6 /* Build configuration list for PBXProject "CopyFile" */;
+			buildConfigurationList = 2A4F2A5022B086380033E14C /* Build configuration list for PBXProject "MakePDF" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,56 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 2A7D778522AF97B400B2D6E6;
-			productRefGroup = 2A7D778F22AF97B400B2D6E6 /* Products */;
+			mainGroup = 2A4F2A4C22B086380033E14C;
+			productRefGroup = 2A4F2A5622B086380033E14C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A7D778D22AF97B400B2D6E6 /* CopyFile */,
+				2A4F2A5422B086380033E14C /* MakePDF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A7D778C22AF97B400B2D6E6 /* Resources */ = {
+		2A4F2A5322B086380033E14C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7D779E22AF97B500B2D6E6 /* LaunchScreen.storyboard in Resources */,
-				2A7D779B22AF97B500B2D6E6 /* Assets.xcassets in Resources */,
-				2A4F2A4B22B085820033E14C /* info.png in Resources */,
-				2A7D779922AF97B400B2D6E6 /* Main.storyboard in Resources */,
+				2A4F2A6522B0863B0033E14C /* LaunchScreen.storyboard in Resources */,
+				2A4F2A6222B0863B0033E14C /* Assets.xcassets in Resources */,
+				2A4F2A6022B086380033E14C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A7D778A22AF97B400B2D6E6 /* Sources */ = {
+		2A4F2A5122B086380033E14C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7D779622AF97B400B2D6E6 /* ViewController.m in Sources */,
-				2A7D77A122AF97B500B2D6E6 /* main.m in Sources */,
-				2A7D779322AF97B400B2D6E6 /* AppDelegate.m in Sources */,
+				2A4F2A7022B086670033E14C /* PDFManager.m in Sources */,
+				2A4F2A5D22B086380033E14C /* ViewController.m in Sources */,
+				2A4F2A6822B0863B0033E14C /* main.m in Sources */,
+				2A4F2A5A22B086380033E14C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2A7D779722AF97B400B2D6E6 /* Main.storyboard */ = {
+		2A4F2A5E22B086380033E14C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A7D779822AF97B400B2D6E6 /* Base */,
+				2A4F2A5F22B086380033E14C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2A7D779C22AF97B500B2D6E6 /* LaunchScreen.storyboard */ = {
+		2A4F2A6322B0863B0033E14C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A7D779D22AF97B500B2D6E6 /* Base */,
+				2A4F2A6422B0863B0033E14C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2A7D77A222AF97B500B2D6E6 /* Debug */ = {
+		2A4F2A6922B0863B0033E14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		2A7D77A322AF97B500B2D6E6 /* Release */ = {
+		2A4F2A6A22B0863B0033E14C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,33 +287,33 @@
 			};
 			name = Release;
 		};
-		2A7D77A522AF97B500B2D6E6 /* Debug */ = {
+		2A4F2A6C22B0863B0033E14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CopyFile/Info.plist;
+				INFOPLIST_FILE = MakePDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhsd.CopyFile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhsd.MakePDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2A7D77A622AF97B500B2D6E6 /* Release */ = {
+		2A4F2A6D22B0863B0033E14C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CopyFile/Info.plist;
+				INFOPLIST_FILE = MakePDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhsd.CopyFile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhsd.MakePDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A7D778922AF97B400B2D6E6 /* Build configuration list for PBXProject "CopyFile" */ = {
+		2A4F2A5022B086380033E14C /* Build configuration list for PBXProject "MakePDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A7D77A222AF97B500B2D6E6 /* Debug */,
-				2A7D77A322AF97B500B2D6E6 /* Release */,
+				2A4F2A6922B0863B0033E14C /* Debug */,
+				2A4F2A6A22B0863B0033E14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A7D77A422AF97B500B2D6E6 /* Build configuration list for PBXNativeTarget "CopyFile" */ = {
+		2A4F2A6B22B0863B0033E14C /* Build configuration list for PBXNativeTarget "MakePDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A7D77A522AF97B500B2D6E6 /* Debug */,
-				2A7D77A622AF97B500B2D6E6 /* Release */,
+				2A4F2A6C22B0863B0033E14C /* Debug */,
+				2A4F2A6D22B0863B0033E14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2A7D778622AF97B400B2D6E6 /* Project object */;
+	rootObject = 2A4F2A4D22B086380033E14C /* Project object */;
 }
