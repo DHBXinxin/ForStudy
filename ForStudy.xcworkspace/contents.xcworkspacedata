@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:KnowAutolayout/KnowAutolayout.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MakePDF/MakePDF.xcodeproj">
    </FileRef>
    <FileRef

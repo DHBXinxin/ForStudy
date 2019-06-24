@@ -15,6 +15,8 @@
 @end
 
 @implementation ViewController
+//https://developer.apple.com/library/archive/qa/qa1686/_index.html
+//项目中icon和default图片的命名规则、当然也可以直接使用Assets就不需要在意这些
 
 - (void)viewDidLoad {
     [super viewDidLoad];
