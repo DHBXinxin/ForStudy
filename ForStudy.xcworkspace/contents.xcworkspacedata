@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AboutLock/AboutLock.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:KnowAutolayout/KnowAutolayout.xcodeproj">
    </FileRef>
    <FileRef
