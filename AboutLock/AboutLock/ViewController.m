@@ -19,17 +19,62 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    __block NSInteger i = 0;
-    [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        i++;
-        NSLog(@"%li",(long)i);
-    }];
+//    __block NSInteger i = 0;
+//    [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        i++;
+//        NSLog(@"%li",(long)i);
+//    }];
 //    [self test1];
 //    [self test2];
 //    [self test3];
 //    [self test4];
 //    [self checkSemaphore];
+//    [self test5];
+    [self test6];
     
+}
+//条件锁
+- (void)test6 {
+    NSConditionLock *lock = [[NSConditionLock alloc]init];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        for (int i = 0; i <= 2; i++) {
+            [lock lock];
+            NSLog(@"condition:%d",i);
+            sleep(1);
+            [lock unlockWithCondition:i];
+        }
+    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [lock lockWhenCondition:2];
+        NSLog(@"thread2");
+        [lock unlock];
+    });
+}
+//递归锁
+- (void)test5 {
+//    NSLock *lock = [[NSLock alloc]init];
+    NSRecursiveLock *lock = [[NSRecursiveLock alloc]init];
+    TestLock *obj = [[TestLock alloc]init];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        static void(^TestMethod)(int);
+        TestMethod = ^(int value) {
+            [lock lock];
+            if (value > 0) {
+                [obj method1];
+                sleep(1);
+                TestMethod(value - 1);//不是递归锁的话、就出现死锁
+                //递归锁是每次的lock和unlock都需要平衡调用、只有锁和解锁平衡之后、锁才真正被释放给其他的线程
+            }
+            [lock unlock];
+        };
+        TestMethod(5);
+    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        sleep(1);
+        [lock lock];
+        [obj method2];
+        [lock unlock];
+    });
 }
 - (void)checkSemaphore {
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
