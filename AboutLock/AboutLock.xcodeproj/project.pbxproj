@@ -13,6 +13,7 @@
 		2ABBFAB022C44BD700EDD62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABBFAAF22C44BD700EDD62E /* Assets.xcassets */; };
 		2ABBFAB322C44BD700EDD62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABBFAB122C44BD700EDD62E /* LaunchScreen.storyboard */; };
 		2ABBFAB622C44BD700EDD62E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFAB522C44BD700EDD62E /* main.m */; };
+		2ABBFABE22C44FD200EDD62E /* TestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFABD22C44FD200EDD62E /* TestLock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2ABBFAB222C44BD700EDD62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ABBFAB422C44BD700EDD62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ABBFAB522C44BD700EDD62E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ABBFABC22C44FD200EDD62E /* TestLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLock.h; sourceTree = "<group>"; };
+		2ABBFABD22C44FD200EDD62E /* TestLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2ABBFAA722C44BD500EDD62E /* AppDelegate.m */,
 				2ABBFAA922C44BD500EDD62E /* ViewController.h */,
 				2ABBFAAA22C44BD500EDD62E /* ViewController.m */,
+				2ABBFABC22C44FD200EDD62E /* TestLock.h */,
+				2ABBFABD22C44FD200EDD62E /* TestLock.m */,
 				2ABBFAAC22C44BD500EDD62E /* Main.storyboard */,
 				2ABBFAAF22C44BD700EDD62E /* Assets.xcassets */,
 				2ABBFAB122C44BD700EDD62E /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				2ABBFAAB22C44BD500EDD62E /* ViewController.m in Sources */,
 				2ABBFAB622C44BD700EDD62E /* main.m in Sources */,
+				2ABBFABE22C44FD200EDD62E /* TestLock.m in Sources */,
 				2ABBFAA822C44BD500EDD62E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
