@@ -19,19 +19,80 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    __block NSInteger i = 0;
-//    [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
-//        i++;
-//        NSLog(@"%li",(long)i);
-//    }];
+    __block NSInteger i = 0;
+    [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        i++;
+        NSLog(@"%li",(long)i);
+    }];
 //    [self test1];
 //    [self test2];
 //    [self test3];
 //    [self test4];
 //    [self checkSemaphore];
 //    [self test5];
-    [self test6];
+//    [self test6];
+//    [self test7];
+//    [self test8];
+    [self test9];
     
+    
+}
+- (void)test9 {
+    TestLock *obj = [[TestLock alloc]init];
+    __block pthread_mutex_t mutex;
+    pthread_mutex_init(&mutex, NULL);
+    __block pthread_cond_t cond;
+    pthread_cond_init(&cond, NULL);
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        pthread_mutex_lock(&mutex);
+        pthread_cond_wait(&cond, &mutex);
+        [obj method1];
+        pthread_mutex_unlock(&mutex);
+    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        pthread_mutex_lock(&mutex);
+        [obj method2];
+        sleep(2);
+        pthread_cond_signal(&cond);
+        pthread_mutex_unlock(&mutex);
+    });
+}
+- (void)test8 {
+    NSRecursiveLock *lock = [[NSRecursiveLock alloc]init];
+    TestLock *obj = [[TestLock alloc]init];
+    static void(^testMethod)(int);
+    testMethod = ^(int value) {
+        [lock tryLock];
+        if (value > 0) {
+            [obj method1];
+            [NSThread sleepForTimeInterval:1];
+            testMethod(value - 1);
+        }
+        [lock unlock];
+    };
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        testMethod(5);
+    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [lock lock];
+        [obj method2];
+        [lock unlock];
+    });
+}
+- (void)test7 {
+    NSConditionLock *lock = [[NSConditionLock alloc]init];
+    TestLock *obj = [[TestLock alloc]init];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [lock lock];
+        [obj method1];
+        [NSThread sleepForTimeInterval:1];
+        [lock unlockWithCondition:10];
+    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [lock lockWhenCondition:10];
+        [obj method2];
+        [lock unlock];
+    });
 }
 //条件锁
 - (void)test6 {
