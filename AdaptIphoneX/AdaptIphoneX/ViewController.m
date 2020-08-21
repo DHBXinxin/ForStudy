@@ -22,6 +22,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   
+    if (#available(iOS 11.0, *)) {
+        NSLog(@"ssss");
+    }
     //scrollview设置自动为nav留位置
     if (@available(iOS 11.0, *)) {
         [_scrol setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentAlways];

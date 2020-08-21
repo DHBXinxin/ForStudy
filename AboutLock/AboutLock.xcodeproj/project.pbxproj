@@ -20,6 +20,7 @@
 /* Begin PBXFileReference section */
 		2A4BCD302300EFE8003927CB /* SafeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeObject.h; sourceTree = "<group>"; };
 		2A4BCD312300EFE8003927CB /* SafeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeObject.m; sourceTree = "<group>"; };
+		2A4BCD3323024A3C003927CB /* SafeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SafeObject.cpp; sourceTree = "<group>"; };
 		2ABBFAA322C44BD500EDD62E /* AboutLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABBFAA622C44BD500EDD62E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABBFAA722C44BD500EDD62E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				2ABBFAAA22C44BD500EDD62E /* ViewController.m */,
 				2A4BCD302300EFE8003927CB /* SafeObject.h */,
 				2A4BCD312300EFE8003927CB /* SafeObject.m */,
+				2A4BCD3323024A3C003927CB /* SafeObject.cpp */,
 				2ABBFABC22C44FD200EDD62E /* TestLock.h */,
 				2ABBFABD22C44FD200EDD62E /* TestLock.m */,
 				2ABBFAAC22C44BD500EDD62E /* Main.storyboard */,

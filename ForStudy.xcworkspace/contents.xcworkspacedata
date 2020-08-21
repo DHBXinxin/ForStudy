@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:XMPP/XMPP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ForSceneDelegate/ForSceneDelegate.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:KindOfSort/KindOfSort.xcodeproj">
    </FileRef>
    <FileRef

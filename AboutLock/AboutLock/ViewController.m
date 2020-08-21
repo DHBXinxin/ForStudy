@@ -25,7 +25,7 @@
         NSLog(@"%li",(long)i);
     }];
 //    [self test1];
-//    [self test2];
+    [self test2];
 //    [self test3];
 //    [self test4];
 //    [self checkSemaphore];
@@ -33,7 +33,7 @@
 //    [self test6];
 //    [self test7];
 //    [self test8];
-    [self test9];
+//    [self test9];
     
     
 }

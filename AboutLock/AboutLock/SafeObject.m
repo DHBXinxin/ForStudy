@@ -27,7 +27,8 @@
     }
     @synchronized (_mulData) {
         
-    }//这两个锁效果一样、一个把锁添加给self、一个添加给mulData而把下面这一句添加到锁的代码块、造成的效果是一样的
+    }
+//self和mulData是标识符
     [_mulData addObject:element];
 }
 @end
