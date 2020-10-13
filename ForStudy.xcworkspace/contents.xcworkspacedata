@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RegularExpression/RegularExpression.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:XMPP/XMPP.xcodeproj">
    </FileRef>
    <FileRef

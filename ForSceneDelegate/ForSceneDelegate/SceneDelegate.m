@@ -7,7 +7,7 @@
 //
 
 #import "SceneDelegate.h"
-
+#import "ViewController.h"
 @interface SceneDelegate ()
 
 @end
