@@ -47,9 +47,6 @@
       location = "group:MethodSwizzling/MethodSwizzling.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/dhsd/Desktop/ForStudy/System_Framework.png">
-   </FileRef>
-   <FileRef
       location = "group:RuntimeAssociate/RuntimeAssociate.xcodeproj">
    </FileRef>
    <FileRef
