@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <objc/NSObjCRuntime.h>
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
+- (IBAction)changeLaunge:(id)sender;
 
 @property (strong, nonatomic) UITableView *mainTable;
 
@@ -53,4 +54,6 @@
 }
 
 
+- (IBAction)changeLaunge:(id)sender {
+}
 @end

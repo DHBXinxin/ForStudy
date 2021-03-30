@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.view.backgroundColor = UIColor.purple
         label = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 40))
         label?.center = self.view.center
         label?.textAlignment = NSTextAlignment.center
