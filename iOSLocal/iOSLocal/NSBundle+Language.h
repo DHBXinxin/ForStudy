@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)setLanguage:(NSString *)language;
 
++ (NSBundle *)getCurrentBundle;
+
 @end
 
 NS_ASSUME_NONNULL_END

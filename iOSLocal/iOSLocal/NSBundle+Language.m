@@ -33,4 +33,10 @@ static const char _bundle = 0;
     objc_setAssociatedObject([NSBundle mainBundle], &_bundle, language ? [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:language ofType:@"lproj"]] : nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     //给mainbundle赋值
 }
++ (NSBundle *)getCurrentBundle {
+    NSString * currentLanguage = [[NSUserDefaults standardUserDefaults] objectForKey:@"Language"];
+        NSString *path = [[ NSBundle mainBundle ] pathForResource:currentLanguage ofType:@"lproj" ];
+        NSBundle * current = [NSBundle bundleWithPath:path];
+        return current;
+}
 @end
