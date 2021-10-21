@@ -13,7 +13,6 @@
 		AB8ADC8520AD8D5700C46845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8ADC8420AD8D5700C46845 /* Assets.xcassets */; };
 		AB8ADC8820AD8D5700C46845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8ADC8620AD8D5700C46845 /* LaunchScreen.storyboard */; };
 		AB8ADC8B20AD8D5700C46845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8ADC8A20AD8D5700C46845 /* main.m */; };
-		AB8ADC9220AD8D9100C46845 /* isa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8ADC9120AD8D9000C46845 /* isa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		AB8ADC8720AD8D5700C46845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8ADC8920AD8D5700C46845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8ADC8A20AD8D5700C46845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB8ADC9120AD8D9000C46845 /* isa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isa.png; sourceTree = "<group>"; };
 		AB8ADCB820AE637100C46845 /* AllocInit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllocInit.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +63,6 @@
 				AB8ADC7C20AD8D5600C46845 /* AppDelegate.m */,
 				AB8ADC7E20AD8D5600C46845 /* ViewController.h */,
 				AB8ADC7F20AD8D5600C46845 /* ViewController.m */,
-				AB8ADC9120AD8D9000C46845 /* isa.png */,
 				AB8ADC8120AD8D5600C46845 /* Main.storyboard */,
 				AB8ADC8420AD8D5700C46845 /* Assets.xcassets */,
 				AB8ADC8620AD8D5700C46845 /* LaunchScreen.storyboard */,
@@ -136,7 +133,6 @@
 				AB8ADC8820AD8D5700C46845 /* LaunchScreen.storyboard in Resources */,
 				AB8ADC8520AD8D5700C46845 /* Assets.xcassets in Resources */,
 				AB8ADC8320AD8D5600C46845 /* Main.storyboard in Resources */,
-				AB8ADC9220AD8D9100C46845 /* isa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
