@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CollectionTap/CollectionTap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioChange/AudioChange.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RecordSwift/RecordSwift.xcodeproj">
    </FileRef>
    <FileRef

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C670DC662733D8FA005EA84A /* trycatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C670DC652733D8FA005EA84A /* trycatch.swift */; };
 		C6927ABF27321F08008DB86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6927ABE27321F08008DB86A /* AppDelegate.swift */; };
 		C6927AC127321F08008DB86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6927AC027321F08008DB86A /* SceneDelegate.swift */; };
 		C6927AC327321F08008DB86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6927AC227321F08008DB86A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C670DC652733D8FA005EA84A /* trycatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trycatch.swift; sourceTree = "<group>"; };
 		C6927ABB27321F08008DB86A /* RecordSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6927ABE27321F08008DB86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6927AC027321F08008DB86A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				C6927AC027321F08008DB86A /* SceneDelegate.swift */,
 				C6927AC227321F08008DB86A /* ViewController.swift */,
 				C6927AD227321F21008DB86A /* AddExtention.swift */,
+				C670DC652733D8FA005EA84A /* trycatch.swift */,
 				C6927AC427321F08008DB86A /* Main.storyboard */,
 				C6927AC727321F09008DB86A /* Assets.xcassets */,
 				C6927AC927321F09008DB86A /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6927AD327321F21008DB86A /* AddExtention.swift in Sources */,
+				C670DC662733D8FA005EA84A /* trycatch.swift in Sources */,
 				C6927AC327321F08008DB86A /* ViewController.swift in Sources */,
 				C6927ABF27321F08008DB86A /* AppDelegate.swift in Sources */,
 				C6927AC127321F08008DB86A /* SceneDelegate.swift in Sources */,
